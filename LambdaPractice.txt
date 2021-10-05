@@ -1,0 +1,24 @@
+ // Lambda
+    val changeColor = { textView.text = getString(R.string.name) }
+    changeColor()
+
+    // Function
+    fun changeColorFun(){
+        textView.text = getString(R.string.name)
+    }
+    changeColorFun()
+//////////////////////////////////////////////////////
+val allowed = listOf("Amal", "Ahmad", "Sam")
+
+val access = { name:String -> 
+               if(allowed.iscountain.name)
+                println("Hello $name") }
+
+access("Sam")
+
+    // Function
+    fun accessFun(name: String){
+        if(allowed.iscountain.name)
+        println("Hello $name")
+    }
+    accessFun("Sam")
